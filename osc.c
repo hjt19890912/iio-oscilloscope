@@ -735,6 +735,7 @@ int plugin_data_capture_of_plot(OscPlot *plot, const char *device, gfloat ***coo
 
 capture_malloc_fail:
 	fprintf(stderr, "%s:%s malloc failed\n", __FILE__, __func__);
+	printf("%s:%s, for testing\n", __FILE__, __func__);
 	return -ENOMEM;
 }
 

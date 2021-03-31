@@ -2564,7 +2564,7 @@ int osc_test_value(struct iio_context *_ctx, int line,
 		if (ret < 0)
 			goto cleanup;
 
-		printf("hjt test   ddd\n");
+		printf("hjt test hello   ddd\n");
 		printf("Line %i: (%s = %s): value = %lf\n",
 				line, attribute, value, val_d);
 		ret = val_d >= min_d && val_d <= max_d;
